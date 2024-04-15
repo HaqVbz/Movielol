@@ -1,0 +1,12 @@
+:root [data-theme=dark], [data-theme][data-theme=dark] {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  --chakra-colors-chakra-body-bg: var(--chakra-colors-gray-800);
+  --chakra-colors-gray-800: #1A202C;
+
+}
+
+.body{
+  background: var(--chakra-colors-gray-800);
+}
